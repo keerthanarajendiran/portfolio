@@ -711,16 +711,6 @@ section,
   font-family: "Special Elite", cursive;
 }
 
-.hero img {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
 .hero .container {
   position: relative;
   z-index: 3;
@@ -758,6 +748,11 @@ section,
   justify-content: center;
   margin-right: 20px;
   transition: 0.3s;
+}
+
+.hero .social-links a img{
+  height: 14px;
+  width: 14px;
 }
 
 .hero .social-links a:hover {
@@ -1429,11 +1424,12 @@ section,
   line-height: 1;
   margin: 4px 6px 0 0;
   transition: 0.3s;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: #ffffff
 }
 
-.contact .info-item .social-links a:hover {
-  color: var(--accent-color);
+.contact .info-item .social-links img {
+  height: 24px;
+  width: 24px;
 }
 
 .contact .php-email-form {
